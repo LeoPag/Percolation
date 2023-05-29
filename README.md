@@ -5,5 +5,5 @@ For a given binary matrix, we determine if the liquid can percolate with 3 diffe
 
 Furthermore, for a given matrix size M * N, we carry out statistical tests to estimate the probability of percolation, assuming that each cell of the wall is distributed as a Bernoulli random variable with p = 0.5. 
 
-Finally, for a given matrix size M * N, we compute the exact probability of percolation, by testing out model all possible binary matrices with size M * N. These matrices are generated with backtracking.
+Finally, for a given matrix size M * N, we compute the exact probability of percolation, by testing out model all possible binary matrices with size M * N. These matrices are generated with backtracking. For this last idea, developed in the file *simulate.cpp*, we must keep in mind that the number of binary matrices of size M * N is 2^(M * N), which makes the runtime of this program exponential in the size if the matrices.
 
