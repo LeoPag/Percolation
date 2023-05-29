@@ -1,7 +1,11 @@
 # Percolation
 
 <img align="right" width="250" heigth="100" src="Images/image1.png">
-This repo contains the code for the study of percolation on a 2D wall. Our percolation model is quite simple: given a M * N binary matrix, we have to determine whether the fluid can get to the bottom of the wall. We assume that the fluid can only move vertically or horizontally to neighbouring cells with positive values. Moreover, the fluid starts at the top of the wall along its entire length.
+
+This repo contains the code for the study of the percolation problem on a 2D wall. 
+
+
+Our percolation model is quite simple: given a M * N binary matrix, we have to determine whether the fluid can get to the bottom of the wall. We assume that the fluid can only move vertically or horizontally to neighbouring cells with positive values. Moreover, the fluid starts at the top of the wall along its entire length.
 
 First, for a given binary matrix, we determine if the liquid can percolate with 3 different algorithmic techniques: 
 -Depth First Search: the matrix is explored depth first to find a runaway for the liquid.
