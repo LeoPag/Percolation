@@ -13,7 +13,7 @@ First, for a given binary matrix, we determine if the liquid can percolate with 
 
 -Breadth First Search: the matrix is explored breadth first to find a runaway for the liquid.
 
--Union Find data structure: each cell is assigned to its connected compoenent in the graph.
+-Union Find data structure: each cell is assigned to its connected component in the graph.
 
 Furthermore, for a given matrix size M * N, we can carry out statistical tests to estimate the probability of percolation, assuming that each cell of the wall is distributed as a Bernoulli random variable with parameter *p*. As expectd, we find out that the probability of percolation increases with N and p, but decreases with M. The taller and the thinner the matrix, the slimmer the chance for the fluid to percolate.
 
